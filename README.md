@@ -7,7 +7,7 @@ Example .bat file is in `download.bat`.
 install:
 
 ```
-npm i -g heic2jpg
+npm i -g heic-dir-convert
 ```
 
 ```shell
