@@ -24,7 +24,8 @@
     "start": "node ./dist/index.js",
     "test": "jest",
     "build": "tsc",
-    "build:watch": "tsc --watch"
+    "build:watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,11 @@
     "heic",
     "jpg",
     "convert"
+  ],
+  "files": [
+    "dist",
+    "esb",
+    "README.md"
   ],
   "author": "Krzysztof Chomicz",
   "license": "ISC",
